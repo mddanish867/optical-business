@@ -100,51 +100,10 @@ export default function OpticalBusinessLanding() {
           </div>
         )}
 
-        <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/products" element={<ProductsPage />} />
-            <Route path="/services" element={<ServicesPage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/bookappoinment" element={<BookAppointment/>}/>
-            <Route path="/checkout" element={<CheckoutForm/>}/>
+       
 
-            
-            {/* Add a fallback route for undefined paths */}
-            <Route path="*" element={<HomePage />} />
-          </Routes>
-        </main>
-
-        <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-          <p className="text-xs text-gray-500">© 2023 Acme Optical. All rights reserved.</p>
-          <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-            <Link className="text-xs hover:underline underline-offset-4 text-gray-500" to="#">
-              Terms of Service
-            </Link>
-            <Link className="text-xs hover:underline underline-offset-4 text-gray-500" to="#">
-              Privacy
-            </Link>
-          </nav>
-        </footer>
-
-        {/* Modals */}
-        {showLogin && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-            <div className="bg-white rounded-lg p-6 w-full max-w-md">
-              <h2 className="text-2xl font-bold mb-4">Login</h2>
-              <form className="space-y-4">
-                <input type="email" placeholder="Email" className="w-full px-3 py-2 border rounded" />
-                <input type="password" placeholder="Password" className="w-full px-3 py-2 border rounded" />
-                <button className="w-full bg-gray-950 hover:bg-gray-800 text-white py-2 rounded">Login</button>
-              </form>
-              <button   className="mt-4 text-gray-950 underline hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all"
- onClick={() => setShowLogin(false)}>
-                Close
-              </button>
-            </div>
-          </div>
-        )}
+       
+        
 
         
 
