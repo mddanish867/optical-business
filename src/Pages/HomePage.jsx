@@ -20,9 +20,9 @@ export default function HomePage() {
                 <Link to="/bookappoinment" className="bg-white text-black hover:bg-gray-200 px-4 py-2 rounded">
                   Book an Appointment
                 </Link>
-                <button className="text-white border border-white hover:bg-white hover:text-black px-4 py-2 rounded">
+                <Link to="#" className="text-white border border-white hover:bg-white hover:text-black px-4 py-2 rounded">
                   Our Services
-                </button>
+                </Link>
               </div>
             </div>
           </div>
