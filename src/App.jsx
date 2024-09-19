@@ -14,6 +14,10 @@ import LoginModal from '../src/Pages/Modals/LoginModal';
 import RegisterModal from '../src/Pages/Modals/RegisterModal';
 import CartModal from '../src/Pages/Modals/CartModal';
 import FavoritesModal from '../src/Pages/Modals/FavoritesModal';
+import OrderConfirmation from "./Pages/OrderConfirmation";
+import OrderTracking from "./Pages/OrderTracking";
+import UserProfile from "./Pages/UserProfile";
+import NotFound from "./Pages/NotFound";
 
 export default function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -42,7 +46,12 @@ export default function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/bookappoinment" element={<BookAppointment />} />
             <Route path="/checkout" element={<CheckoutForm />} />
-            <Route path="*" element={<HomePage />} />
+            <Route path="/orderConfrimation" element={<OrderConfirmation />} />
+            <Route path="/trackOrder" element={<OrderTracking />} />
+            <Route path="/user-profile" element={<UserProfile />} />
+
+            
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
 
