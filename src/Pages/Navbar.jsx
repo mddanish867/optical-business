@@ -65,7 +65,7 @@ export default function Navbar({ setShowLogin, setShowRegister, setShowCart }) {
             <span className="sr-only">Cart</span>
           </button>
           <button
-            className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-all"
+            className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:bg-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-all"
             onClick={() => setShowMobileMenu(!showMobileMenu)}
           >
             <Menu className="h-5 w-5" />
