@@ -2,10 +2,7 @@ import { Eye, ShoppingCart, Menu } from "lucide-react";
 import { useState } from "react";
 import {
   BrowserRouter,
-  Link,
-  Routes,
-  Route,
-  useNavigate,
+  Link, 
 } from "react-router-dom";
 
 export default function OpticalBusinessLanding() {

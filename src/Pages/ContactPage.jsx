@@ -48,7 +48,7 @@ export default function ContactPage() {
                 className="w-full h-32 px-3 py-2 text-gray-700 border rounded-lg focus:outline-none"
                 placeholder="Your Message"
               ></textarea>
-              <button className="w-full bg-green-500 text-white py-2 rounded">Send Message</button>
+              <button className="w-full bg-black text-white py-2 rounded">Send Message</button>
             </form>
           </div>
         </div>
