@@ -64,11 +64,11 @@ export default function HomePage() {
           <div className="flex flex-col items-center justify-center space-y-6 sm:space-y-8 text-center animate-fade-in">
             <div className="space-y-4 sm:space-y-6">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tighter text-white animate-slide-up">
-                See the World Clearly
+                Your Perfect Vision, Our Passion
               </h1>
               <p className="mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 animate-fade-in opacity-0" 
                  style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
-                Professional eye care and stylish eyewear for your perfect vision
+                See the world through a new lens. Our optical store offers a wide range of eyewear options, designed to enhance your vision and style
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto animate-fade-in opacity-0"
