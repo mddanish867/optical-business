@@ -25,7 +25,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16 lg:py-24 xl:py-32 min-h-screen flex items-center justify-center relative z-10">
           <div className="flex flex-col -mt-56 sm:-mt-0 items-center justify-center space-y-6 sm:space-y-8 text-center animate-fade-in">
             <div className="space-y-4 sm:space-y-6">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tighter text-white animate-slide-up">
+              <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tighter text-white animate-slide-up">
                 Your Perfect Vision, Our Passion
               </h1>
               <p className="mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 animate-fade-in opacity-0" 
